@@ -16,9 +16,7 @@ void main() {
       Locale('en', 'US'),
     ],
     title: 'The Day',
-    theme: ThemeData(
-      primarySwatch: Colors.blue,
-    ),
+    theme: ThemeData.dark(),
     home: const TheDay(),
   ));
 }
